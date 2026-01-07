@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f79e89;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url("../images/banner.jpg") center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.produtos-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.produto img {
+    width: 180px;
+    border-radius: 8px;
+}
